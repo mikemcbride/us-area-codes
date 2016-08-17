@@ -1,6 +1,6 @@
 {
   "name": "us-area-codes",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "US Area Codes",
   "license": "MIT",
   "repository": "mmcbride1007/us-area-codes",
@@ -18,12 +18,13 @@
   },
   "files": [
     "index.js",
-    "cli.js"
+    "cli.js",
+    "data"
   ],
   "keywords": [
     "cli-app",
     "cli",
-    ""
+    "area codes"
   ],
   "dependencies": {
     "meow": "^3.7.0"

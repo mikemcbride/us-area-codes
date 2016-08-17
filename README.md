@@ -1,7 +1,6 @@
-# us-area-codes [![Build Status](https://travis-ci.org/mmcbride1007/us-area-codes.svg?branch=master)](https://travis-ci.org/mmcbride1007/us-area-codes)
+# us-area-codes
 
-> US Area Codes
-
+> Area Codes for USA, Canada, and surrounding territories.
 
 ## Install
 
@@ -9,36 +8,25 @@
 $ npm install --save us-area-codes
 ```
 
-
 ## Usage
 
 ```js
 const usAreaCodes = require('us-area-codes');
 
-usAreaCodes('unicorns');
-//=> 'unicorns & rainbows'
+usAreaCodes(210);
+//=> Texas
 ```
 
 
 ## API
 
-### usAreaCodes(input, [options])
+### usAreaCodes(input)
 
 #### input
 
-Type: `string`
+Type: `number`
 
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `boolean`<br>
-Default: `false`
-
-Lorem ipsum.
-
+Returns the corresponding state or territory.
 
 ## CLI
 
@@ -52,14 +40,9 @@ $ us-area-codes --help
   Usage
     us-area-codes [input]
 
-  Options
-    --foo  Lorem ipsum [Default: false]
-
   Examples
-    $ us-area-codes
-    unicorns & rainbows
-    $ us-area-codes ponies
-    ponies & rainbows
+    $ us-area-codes 210
+    Texas
 ```
 
 

@@ -1,0 +1,38 @@
+{
+  "name": "us-area-codes",
+  "version": "0.0.0",
+  "description": "US Area Codes",
+  "license": "MIT",
+  "repository": "mmcbride1007/us-area-codes",
+  "author": {
+    "name": "Mike McBride",
+    "email": "mmcbride1007@icloud.com",
+    "url": "mmcbride1007.github.io"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    ""
+  ],
+  "dependencies": {
+    "meow": "^3.7.0"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true
+  }
+}

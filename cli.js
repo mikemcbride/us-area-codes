@@ -5,11 +5,11 @@ const areacodes = require('./');
 
 const cli = meow(`
 	Usage
-	  $ areacodes [code]
+	  $ us-area-codes [code]
 
 	Examples
-	  $ areacodes 210
+	  $ us-area-codes 210
 	  Texas
 `);
 
-console.log(codes.get(cli.input[0]));
+console.log(areacodes.get(cli.input[0]));

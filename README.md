@@ -13,7 +13,7 @@ $ npm install --save us-area-codes
 ```js
 const usAreaCodes = require('us-area-codes');
 
-usAreaCodes(210);
+usAreaCodes.get(210);
 //=> Texas
 ```
 

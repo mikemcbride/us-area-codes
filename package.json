@@ -1,9 +1,9 @@
 {
   "name": "us-area-codes",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "US Area Codes",
   "license": "MIT",
-  "repository": "mmcbride1007/us-area-codes",
+  "repository": "mikemcbride/us-area-codes",
   "author": {
     "name": "Mike McBride",
     "email": "mmcbride1007@icloud.com",
